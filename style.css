@@ -1,0 +1,95 @@
+
+#togglebar{
+    background-color: #EEEEEE;
+    height: 40px;
+    width: 100%;
+    margin: 0%;
+}
+
+h3{
+    margin: 10%;
+    position: relative;
+    float: left;
+    top: 30%;
+    margin: 0% 2%;
+}
+
+#buttonsPosition{
+    position: relative;
+    top: 18%;
+}
+
+.buttonsCSS{
+    padding: 0%;
+    padding-left: 1%;padding-right: 1%;
+    height: 30px;
+    width: fit-content;
+    position: relative;
+    float: center;  
+    margin: 0 auto;  
+}
+
+.buttonsCSS:hover{
+    background-color: aqua;
+}
+#html{
+    position: relative;
+    left: 16px;
+}
+#css{
+    position: relative;
+    left: 11px;
+}
+#javascript{
+    position: relative;
+    left: 6px;
+}
+
+#mainBody{
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+    width: 100%;
+}
+
+#htmlBody{
+    position: relative;
+    float: left;
+    
+    width: 49%;
+    height: 1000px;
+    border-right: 2px gray solid;
+}
+#cssBody{
+    position: relative;
+    float: left;
+    
+    display: none;
+    width: 25%;
+    height: 1000px;
+    border-right: 2px gray solid;
+}
+#javascriptBody{
+    position: relative;
+    float: left;
+    display: none;
+   
+    width: 25%;
+    height: 1000px;
+    border-right: 2px gray solid;
+}
+#outputBody{
+    position: relative;
+    float: left;
+    
+    width: 49.5%;
+    height: 1000px;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.clear{
+    clear: both;
+}
