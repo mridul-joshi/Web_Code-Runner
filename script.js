@@ -7,7 +7,7 @@ function updateOutput()
 function change33()
 {
     $("#htmlBody").css("width","33%");
-    $("#outputBody").css("width","33%");
+    $("#outputBody").css("width","32.5%");
 }
 
 function change25()
@@ -69,7 +69,7 @@ $("#css").click(function()
         if(($("#javascriptBody").css("display"))=="block")
         {
             change33();
-            $("#javascriptBody").css("width","32.5%");
+            $("#javascriptBody").css("width","32%");
             $("#cssBody").css("display","none");
 
         }
@@ -132,3 +132,4 @@ $("textarea").on('change keyup paste' , function()
 {
     updateOutput();
 });
+
