@@ -128,6 +128,28 @@ $("#javascript").click(function()
 
 
 
+$("#output").click(function()
+{
+    if($("#htmlBody").css("display")=="none")
+    {
+        $("#htmlBody").css("display","block");
+        $("#cssBody").css("display","block");
+        $("#javascriptBody").css("display","block");
+        $("#outputBody").css("width","24%");
+    }
+    else
+    {
+        
+        $("#htmlBody").css("display","none");
+        $("#cssBody").css("display","none");
+        $("#javascriptBody").css("display","none");
+        $("#outputBody").css("width","100%");
+
+    }
+
+})
+
+
 $("textarea").on('change keyup paste' , function()
 {
     updateOutput();

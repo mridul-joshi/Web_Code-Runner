@@ -29,8 +29,12 @@ h3{
     margin: 0 auto;  
 }
 
+#output:hover{
+    background-color: chartreuse;
+}
+
 .buttonsCSS:hover{
-    background-color: aqua;
+    background-color: rgb(80, 191, 255);
 }
 #html{
     position: relative;
